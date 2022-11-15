@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  transition: background 0.5s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 250px;
+  height: 100px;
+
+  background-color: #000;
+  border-radius: 50px;
+}
+
+.togle {
+  height: 86.31px;
+  width: 86.31px;
+
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  transition: 0.5s;
+
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+
+  cursor: pointer;
+}
